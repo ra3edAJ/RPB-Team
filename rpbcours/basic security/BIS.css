@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+body {
+    font-family: 'El Messiri', sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #d76b06, #f1aa4ce1);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    height: auto;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+
+
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+
+
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/*-========================================================*/
+#banner {
+    background-image: linear-gradient(to right, #d76b06, #f1aa4ce1);
+    color: #fff;
+    padding-top: 5%;
+
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img {
+    width: 100%;
+
+
+}
+
+/*==================================================================*/
+/*================================*/
+.title1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50Px;
+
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    text-align: center;
+}
+
+
+#about-us pre {
+    margin: 10px 0;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.aa3 {
+    transition: 0.5s;
+
+}
+
+.aa3:hover {
+    transform: translateY(-10px);
+
+}
+
+.img-fluid {
+    padding-top: 50px;
+}
+
+.pree {
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+/*=======================================*/
+/*=======================================*/
+
+#social-media {
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/*========================================*/
+
+#footer {
+    background-image: linear-gradient(to right, #d76b06, #f1aa4ce1);
+    color: #fff;
+
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+
+}

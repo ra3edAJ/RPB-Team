@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+
+}
+body{
+  font-family: sans-serif;
+}
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+.navbar{
+    background-image: linear-gradient(to right,#1755ba,#201782);
+
+  padding: 0 !important;
+}
+.navbar-brand{
+height: auto;
+padding-left: 20px;
+}
+.navbar-nav li{
+padding:  0 10px;
+
+
+}
+.navbar-nav li a{
+  color: #fff !important;
+  font-weight:600 ;
+  float:right ;
+  text-align: left;
+
+
+}
+.navbar-nav li a:hover{
+  border-bottom: 2px solid white;
+}
+.fa-bars{
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler{
+  outline: none !important;
+}
+
+/*-========================================================*/
+#banner{
+    background-image: linear-gradient(to right,#1755ba,#201782);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: #fff;
+padding-top: 2%;
+
+}
+.promo-title{
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: 'Kufam', sans-serif;
+
+  text-align: center;
+
+}
+.play-btn{
+  width: 45px;
+  margin: 20px;
+
+}
+#banner a{
+  color: #fff;
+  text-decoration: none;
+}
+.bottom-img{
+  width: 100%;
+}
+
+/*==================================================================*/
+#services{
+    padding: 80px 0;
+  
+  }
+  .aa2{
+    text-decoration: none;
+  }
+
+  .card img{
+    width: 100%;
+    margin-top: 20px;
+    transition: 0.5s;
+  
+  
+  }
+  .card{
+    margin:40px;
+  }
+
+  .card-text{
+    font-family: 'Kufam', sans-serif;
+  }
+  .card-body{
+    height: 80px;
+   
+
+  }
+  .card-title{
+    font-family: 'Kufam', sans-serif;
+
+  }
+  .list-group-item{
+    font-family: 'Kufam', sans-serif;
+  }
+  .card-link{
+    font-family: 'Kufam', sans-serif;
+text-decoration: none;
+  }
+  /*================================*/
+  
+  
+  /*=======================================*/
+
+  #social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+   }
+
+   #social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+   }
+   .social-icons img{
+    width: 60px;
+    transition: 0.5s;
+   }
+   .social-icons a:hover img{
+    transform: translateY(-10px );
+   }
+   /*========================================*/
+    
+   /*========================================*/
+    
+   #footer{
+    background-image: linear-gradient(to right,#1755ba,#201782);
+   
+    background-repeat: no-repeat;
+  background-size: cover;
+    color: #fff;
+
+   }
+   .footer-img{
+    width: 100%;
+   }
+   .footer-box{
+    padding: 10px;
+   }
+   .footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+    
+   }
